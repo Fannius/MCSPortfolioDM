@@ -2,7 +2,23 @@
 /* This is a comment! Text here will be ignored by the browser. */
 body {
 	margin: 0 auto;
+	font: 
+		Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"Verdana, Arial, Helvetica, sans-serif;
+     background-color: #FFFFFF;
+     margin: 0;
+     padding: 0;
+     color: #000;
 }
+a:link {
+     color: #58A1BB;
+}
+a:visited {
+     color: #3100FF;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
+}
+
 .homePage {
 	background: #222222;
 }
@@ -11,7 +27,7 @@ body {
 	margin: 0 auto;
 }
 .header {
-	background: #FF0004;
+	background: #58A1BB;
 	text-align: center;
 	margin: 0px;
 	padding: 5;
